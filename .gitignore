@@ -1,0 +1,6 @@
+Capture/build
+Parser/build
+SIPController/build
+SIPSessionManager/build
+SIPSessionMongoDB/build
+*.log

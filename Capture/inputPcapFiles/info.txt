@@ -1,0 +1,25 @@
+## input_1.pcapng
+sourceIPs = 10.21.4.84,18.119.31.140
+destinationIPs = 10.21.4.84,18.119.31.140
+sourcePorts = 5060
+destinationPorts = 5060
+ExtensionRange = 6001-6999
+CallingParty = 6003,6006
+
+
+## input_2.pcapng
+sourceIPs = 172.28.51.109,172.28.48.1
+destinationIPs = 172.28.51.109,172.28.48.1
+sourcePorts = 5060
+destinationPorts = 5060
+ExtensionRange = 1001-1999
+CallingParty = 1001,1002
+
+
+## live capture (Local Asterisk PBX)
+sourceIPs = 172.28.51.109,172.28.48.1
+destinationIPs = 172.28.51.109,172.28.48.1
+sourcePorts = 5060
+destinationPorts = 5060
+ExtensionRange = 1001-1999
+CallingParty = 1001,1002
